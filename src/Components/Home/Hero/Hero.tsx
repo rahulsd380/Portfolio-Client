@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="relative h-[600px] flex flex-col gap-2 items-center justify-center">
+    <div className="relative h-[550px] flex flex-col gap-2 items-center justify-center">
       <Image
         src={IMAGES.heroBg}
         alt=""
@@ -13,12 +13,12 @@ const Hero = () => {
       />
       <h1 className="font-Poppins font-extrabold text-[86px] 2xl:text-[100px] text-white text-center max-w-[1300px] z-10 mx-auto">
         Empowering{" "}
-        <span className="bg-gradient-to-r from-fuchsia-600 via-purple-600 to-violet-500 bg-clip-text text-transparent">
+        <span className="bg-gradient-to-r from-fuchsia-600 via-purple-600 to-violet-400 bg-clip-text text-transparent">
           Your Success
         </span>{" "}
         through Technology
       </h1>
-      <p className="font-Inter text-lg text-center max-w-[980px] mx-auto text-[#CACACA] z-10">
+      <p className="font-Inter text-lg text-center max-w-[980px] mx-auto text-neutral-15 z-10">
         At <span className="font-semibold text-white">Amplogix</span>, we
         empower your success through innovative technology solutions. From
         digital transformation to web development, we turn ideas into impactful
