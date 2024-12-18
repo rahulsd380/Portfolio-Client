@@ -83,14 +83,14 @@ const TechToolBox = () => {
     
 
     return (
-        <Container>
-            <div className="mt-16">
+        <div className="mt-28 bg-[#0C0D21] px-5 py-20 rounded-xl">
+                <Container>
                 <h1 className="text-white font-semibold text-[40px] font-Poppins">Our Tech Toolbox</h1>
                 <p className="font-Inter text-[#ffffff99] max-w-[900px] mt-2">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nobis, reprehenderit voluptas minima accusamus vel, qui pariatur quis dolores error nisi omnis vero iure! Est in sapiente esse dicta odio.
                 </p>
 
-                <Marquee className="mt-10" gradient={true} gradientColor="#010313" speed={70}>
+                <Marquee className="mt-10" speed={70}>
                     {techToolboxLeft.map((tech, index) => (
                         <div
                             key={index}
@@ -103,7 +103,7 @@ const TechToolBox = () => {
                     ))}
                 </Marquee>
 
-                <Marquee className="mt-10" gradient={true} gradientColor="#010313" direction='right'>
+                <Marquee className="mt-10" direction='right'>
                     {techToolboxRight.map((tech, index) => (
                         <div
                             key={index}
@@ -115,8 +115,8 @@ const TechToolBox = () => {
                         </div>
                     ))}
                 </Marquee>
-            </div>
         </Container>
+            </div>
     );
 };
 
