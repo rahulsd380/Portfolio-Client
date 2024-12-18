@@ -5,6 +5,7 @@ export default {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/Components/**/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -16,9 +17,12 @@ export default {
       colors: {
         primary : {
           10 : "",
-          20 : "",
+          20 : "#d946ef",
           30 : ''
         },
+        neutral : {
+          10 : "#010313"
+        }
       },
     },
   },
