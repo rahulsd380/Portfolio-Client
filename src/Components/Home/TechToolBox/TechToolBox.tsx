@@ -83,7 +83,7 @@ const TechToolBox = () => {
     
 
     return (
-        <div className="mt-28 bg-[#0C0D21] px-5 py-16 rounded-xl relative">
+        <div className="mt-28 bg-[#0C0D21] px-5 py-16 relative">
             <div className="hidden lg:block size-[400px] rounded-full bg-primary-20/10 bg-opacity-30 blur-[100px] absolute top-[50px] left-2"></div>
             <div className="hidden lg:block size-[400px] rounded-full bg-primary-20/10 bg-opacity-30 blur-[100px] absolute top-4 right-0"></div>
                 <Container>
