@@ -52,7 +52,7 @@ const TechToolBox = () => {
         {
             icon: ICONS.github,
             name: "Github",
-            borderColor: "#181717", // GitHub black
+            borderColor: "#d946ef", // GitHub black
         },
         {
             icon: ICONS.mongodb,
@@ -83,14 +83,16 @@ const TechToolBox = () => {
     
 
     return (
-        <div className="mt-28 bg-[#0C0D21] px-5 py-20 rounded-xl">
+        <div className="mt-28 bg-[#0C0D21] px-5 py-16 rounded-xl relative">
+            <div className="hidden lg:block size-[400px] rounded-full bg-primary-20/10 bg-opacity-30 blur-[100px] absolute top-[50px] left-2"></div>
+            <div className="hidden lg:block size-[400px] rounded-full bg-primary-20/10 bg-opacity-30 blur-[100px] absolute top-4 right-0"></div>
                 <Container>
                 <h1 className="text-white font-semibold text-[40px] font-Poppins">Our Tech Toolbox</h1>
-                <p className="font-Inter text-[#ffffff99] max-w-[900px] mt-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae nobis, reprehenderit voluptas minima accusamus vel, qui pariatur quis dolores error nisi omnis vero iure! Est in sapiente esse dicta odio.
+                <p className="font-Inter text-[#ffffff99] max-w-[900px] mt-3">
+                Our Tech Toolbox highlights cutting-edge technologies like JavaScript, React, Node.js, MongoDB, and more, enabling us to create innovative, scalable, and robust web development solutions for modern digital needs.
                 </p>
 
-                <Marquee className="mt-10" speed={70}>
+                <Marquee className="mt-16" speed={70}>
                     {techToolboxLeft.map((tech, index) => (
                         <div
                             key={index}
