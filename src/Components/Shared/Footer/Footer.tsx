@@ -133,7 +133,7 @@ const Footer = () => {
                   <div
                     key={index}
                     onClick={action}
-                    className="text-neutral-15 font-Poppins text-sm hover:underline cursor-pointer"
+                    className="text-neutral-15 font-Poppins text-sm hover:underline cursor-pointer w-fit"
                   >
                     {label}
                   </div>
@@ -149,7 +149,7 @@ const Footer = () => {
                   <Link
                     key={link?.label}
                     href={link?.path}
-                    className="text-neutral-15 font-Poppins text-sm hover:underline"
+                    className="text-neutral-15 font-Poppins text-sm hover:underline w-fit"
                   >
                     {link?.label}
                   </Link>

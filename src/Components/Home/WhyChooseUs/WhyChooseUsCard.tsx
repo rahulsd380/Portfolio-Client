@@ -21,7 +21,7 @@ const WhyChooseUsCard: React.FC<TWhyChooseUsCard> = ({
           {title}
         </h1>
 
-        <div className="w-[120px] bg-text-gradient h-[1px]"></div>
+        <div className="w-[120px] bg-text-gradient h-[1px] group-hover:w-[200px] transition-all duration-500"></div>
         <p className="text-white font-Inter text-lg">{description}</p>
       </div>
     </div>

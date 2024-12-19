@@ -11,18 +11,18 @@ export const whyChooseUs = [
         icon: ICONS.security,
         title: "Security",
         description:
-            "Timely precision, where promises meet performance, ensuring your project's success.",
+            "Delivering exceptional security to protect your data and ensure safe online transactions.",
     },
     {
         icon: ICONS.flexibility,
         title: "Flexibility",
         description:
-            "Timely precision, where promises meet performance, ensuring your project's success.",
+            " Customizable solutions designed to meet your unique business needs and goals.",
     },
     {
         icon: ICONS.pricing,
         title: "Pricing",
         description:
-            "Timely precision, where promises meet performance, ensuring your project's success.",
+            "Affordable and transparent pricing, delivering exceptional value without compromising quality.",
     },
 ];

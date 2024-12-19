@@ -1,5 +1,6 @@
 import heroBg from "../assets/images/hero-bg.png";
 import lineBg from "../assets/images/line-bg-image.png";
+import logo from "../assets/images/logo.png";
 // Tech logos
 import nextjs from "../assets/images/Tech Tolbox/nextjs.svg";
 import reactjs from "../assets/images/Tech Tolbox/reactjs.svg";
@@ -24,6 +25,7 @@ import flexibility from "../assets/icons/Flexibility.svg";
 import pricing from "../assets/icons/pricing.svg";
 
 export const IMAGES = {
+    logo,
     heroBg,
     lineBg,
 };
