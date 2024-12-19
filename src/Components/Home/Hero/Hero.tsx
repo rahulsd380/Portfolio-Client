@@ -13,7 +13,7 @@ const Hero = () => {
       />
       <h1 className="font-Poppins font-extrabold text-[86px] 2xl:text-[100px] text-white text-center max-w-[1300px] z-10 mx-auto">
         Empowering{" "}
-        <span className="bg-gradient-to-r from-fuchsia-600 via-purple-600 to-violet-400 bg-clip-text text-transparent">
+        <span className="bg-gradient-to-r from-fuchsia-600 via-purple-500 to-violet-300 bg-clip-text text-transparent">
           Your Success
         </span>{" "}
         through Technology

@@ -7,7 +7,7 @@ import WhyChooseUsCard from "./WhyChooseUsCard";
 const WhyChooseUs = () => {
   return (
     <Container>
-      <div className="mt-24 flex flex-col gap-[64px]">
+      <div id="why-us" className="mt-24 flex flex-col gap-[64px]">
         <Heading
           alignment="center"
           heading="Why Choose Us?"

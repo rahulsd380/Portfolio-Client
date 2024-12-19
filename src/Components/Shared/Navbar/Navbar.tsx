@@ -32,9 +32,9 @@ const Navbar = () => {
   ];
   return (
     <Container>
-      <div className="font-Poppins py-5 flex items-center justify-between">
+      <div id="home" className="font-Poppins py-5 flex items-center justify-between">
         <Link href={"/"} className="text-3xl font-semibold bg-gradient-to-r from-fuchsia-600 via-purple-600 to-violet-500 bg-clip-text text-transparent">
-          Logo
+        Amplogix
         </Link>
         <div className="flex items-center gap-6">
         <div className="flex items-center gap-6">
