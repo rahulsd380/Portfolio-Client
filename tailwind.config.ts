@@ -22,8 +22,12 @@ export default {
         },
         neutral : {
           10 : "#010313",
-          15 : "#CACACA"
+          15 : "#CACACA",
+          20 : "#ffffff0d"
         }
+      },
+      backgroundImage: {
+        'text-gradient': 'linear-gradient(95deg, #FFFFFF 50.31%, rgba(230, 200, 255, 0.6) 110.92%)',
       },
     },
   },

@@ -1,5 +1,6 @@
 import Hero from "@/Components/Home/Hero/Hero";
 import TechToolBox from "@/Components/Home/TechToolBox/TechToolBox";
+import WhyChooseUs from "@/Components/Home/WhyChooseUs/WhyChooseUs";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <Hero/>
       <TechToolBox/>
+      <WhyChooseUs/>
     </div>
   );
 }

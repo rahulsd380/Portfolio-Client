@@ -1,4 +1,5 @@
 import heroBg from "../assets/images/hero-bg.png";
+// Tech logos
 import nextjs from "../assets/images/Tech Tolbox/nextjs.svg";
 import reactjs from "../assets/images/Tech Tolbox/reactjs.svg";
 import nodeJS from "../assets/images/Tech Tolbox/node-js.svg";
@@ -13,6 +14,13 @@ import redux from "../assets/images/Tech Tolbox/redux.svg";
 import restApi from "../assets/images/Tech Tolbox/rest-api.svg";
 import tailwind from "../assets/images/Tech Tolbox/tailwind-css.svg";
 import typescript from "../assets/images/Tech Tolbox/ts.png";
+
+
+
+import onTimeDelivery from "../assets/icons/on-time-delivery.svg";
+import security from "../assets/icons/security.svg";
+import flexibility from "../assets/icons/Flexibility.svg";
+import pricing from "../assets/icons/pricing.svg";
 
 export const IMAGES = {
     heroBg,
@@ -33,5 +41,10 @@ export const ICONS = {
     redux,
     restApi,
     tailwind,
-    typescript
+    typescript,
+
+    onTimeDelivery,
+    security,
+    flexibility,
+    pricing,
 };
