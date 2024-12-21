@@ -24,10 +24,17 @@ import security from "../assets/icons/security.svg";
 import flexibility from "../assets/icons/Flexibility.svg";
 import pricing from "../assets/icons/pricing.svg";
 
+// CONTACT US
+import ContactUs_bg from "../assets/images/ContactUs-bg.png";
+import ContactUs from "../assets/images/contact_us.jpg";
+
 export const IMAGES = {
     logo,
     heroBg,
     lineBg,
+  
+    ContactUs_bg,
+    ContactUs
 };
 
 export const ICONS = {
@@ -51,4 +58,5 @@ export const ICONS = {
     security,
     flexibility,
     pricing,
+
 };
