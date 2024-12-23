@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/Components/Shared/Navbar/Navbar";
 import Footer from "@/Components/Shared/Footer/Footer";
 import ScrollToTop from "@/Components/ScrollToTop/ScrollToTop";
-
+import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: "Amplogix",
@@ -24,6 +24,7 @@ export default function RootLayout({
         {children}
         <Footer/>
         <ScrollToTop/>
+        <Toaster position="bottom-right" />
       </body>
     </html>
   );

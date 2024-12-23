@@ -26,7 +26,7 @@ import pricing from "../assets/icons/pricing.svg";
 
 // CONTACT US
 import ContactUs_bg from "../assets/images/ContactUs-bg.png";
-import ContactUs from "../assets/images/contact_us.jpg";
+import ContactUs from "../assets/images/contact_us.png";
 
 export const IMAGES = {
     logo,
