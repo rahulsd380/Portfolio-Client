@@ -19,7 +19,7 @@ export default {
           10 : "",
           20 : "#d946ef",
           30 : ''
-        },
+      },
         neutral : {
           10 : "#010313",
           15 : "#CACACA",

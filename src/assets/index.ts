@@ -17,6 +17,13 @@ import restApi from "../assets/images/Tech Tolbox/rest-api.svg";
 import tailwind from "../assets/images/Tech Tolbox/tailwind-css.svg";
 import typescript from "../assets/images/Tech Tolbox/ts.png";
 
+// Dummy project img
+import project1 from "../assets/images/Project Cover.png";
+import project2 from "../assets/images/Project Cover (1).png";
+import project3 from "../assets/images/Project Cover (2).png";
+import project4 from "../assets/images/Project Cover (3).png";
+import project5 from "../assets/images/project-5.png";
+
 
 
 import onTimeDelivery from "../assets/icons/on-time-delivery.svg";
@@ -24,10 +31,30 @@ import security from "../assets/icons/security.svg";
 import flexibility from "../assets/icons/Flexibility.svg";
 import pricing from "../assets/icons/pricing.svg";
 
+import cross from "../assets/icons/cross.svg";
+import rightArrow from "../assets/icons/right-arrow.svg";
+import leftArrow from "../assets/icons/leftArrow.svg";
+import success from "../assets/icons/success.svg";
+import menu from "../assets/icons/menu.svg";
+
+
+import webDevelopment from "../assets/animations/Animation - 1734857518842.json";
+import webDevelopment2 from "../assets/animations/Animation - 1734857605179.json";
+import uiUx from "../assets/animations/Animation - 1734857673699.json";
+import performanceOptimization from "../assets/animations/Animation - 1734857756859.json";
+import backendDevelopment from "../assets/animations/Animation - 1734857970404.json";
+import seo from "../assets/animations/Animation - 1734858155602.json";
+
 export const IMAGES = {
     logo,
     heroBg,
     lineBg,
+
+    project1,
+    project2,
+    project3,
+    project4,
+    project5,
 };
 
 export const ICONS = {
@@ -51,4 +78,19 @@ export const ICONS = {
     security,
     flexibility,
     pricing,
+
+    cross,
+    rightArrow,
+    leftArrow,
+    success,
+    menu,
 };
+
+export const ANIMATIONS = {
+    webDevelopment,
+    webDevelopment2,
+    uiUx,
+    performanceOptimization,
+    backendDevelopment,
+    seo,
+}

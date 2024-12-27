@@ -4,6 +4,7 @@ import Container from "@/Components/Reusable/Container/Container";
 import Image from "next/image";
 import Link from "next/link";
 import { BsSendArrowUpFill } from "react-icons/bs";
+import HamburgerMenu from "./HamburgerMenu";
 
 const Navbar = () => {
   const navLinks = [
@@ -39,8 +40,9 @@ const Navbar = () => {
         <Image src={IMAGES.logo} alt="" className="w-8"/>
         Amplogix
         </Link>
+
         <div className="flex items-center gap-6">
-        <div className="flex items-center gap-6">
+        <div className="hidden lg:flex items-center gap-6">
           {navLinks?.map((item) => (
             <Link
               key={item?.label}
@@ -51,10 +53,12 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-        <button className="bg-gradient-to-r from-fuchsia-600 via-purple-600 to-violet-500 rounded-md focus:outline-none px-5 py-3 text-white font-medium flex items-center gap-3">
+        <button className="bg-gradient-to-r from-fuchsia-600 via-purple-600 to-violet-500 rounded-md focus:outline-none px-5 py-3 text-white font-medium hidden sm:flex items-center gap-3">
           <BsSendArrowUpFill /> Let's Talk
         </button>
+        <HamburgerMenu/>
         </div>
+
       </div>
     </Container>
   );

@@ -16,7 +16,7 @@ const Heading: React.FC<THeading> = ({
   return (
     <div className={`flex flex-col  ${alignment === "start" ? "items-start" : alignment === "center" ? "items-center justify-center" : "justify-end"}`}>
       <h1
-        className={`text-white font-semibold text-[40px] font-Poppins text-${alignment} ${headingWidth}`}
+        className={`text-white font-semibold text-[28px] md:text-[40px] font-Poppins text-${alignment} ${headingWidth}`}
       >
         {heading}
       </h1>

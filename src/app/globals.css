@@ -7,3 +7,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px; /* Width of the scrollbar */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: linear-gradient(to right, #d946ef, #a855f7, #8b5cf6); /* Gradient colors */
+    border-radius: 9999px; /* Rounded scrollbar */
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent; /* Transparent track */
+  }
+  
