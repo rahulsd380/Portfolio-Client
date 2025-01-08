@@ -18,7 +18,7 @@ const OurWorks = () => {
 
   const dummyProjects = [
     {
-      img: IMAGES.project1,
+      img: IMAGES.work1,
       name: "E-commerce Website",
       technologyUsed: ["Next.JS", "Redux", "Typescript", "Tailwind CSS"],
       liveLink: "https://www.google.com",

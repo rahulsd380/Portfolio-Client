@@ -165,7 +165,7 @@ const Footer = () => {
                   <IoLocationSharp className="text-purple-700 text-2xl" />
 
                   <div className="flex flex-col gap-1">
-                    <p>Cumilla-3501, Bangladesh,</p>
+                    {/* <p>Cumilla-3501, Bangladesh,</p> */}
                     <p>Kolkata, 12, India</p>
                   </div>
                 </div>
@@ -173,23 +173,23 @@ const Footer = () => {
                   <MdAddCall className="text-purple-700 text-2xl" />
 
                   <div className="flex flex-col gap-1">
-                    <a href="tel:+880 1608 249337" className="hover:underline">
+                    {/* <a href="tel:+880 1608 249337" className="hover:underline">
                       +880 1608 249337
-                    </a>
+                    </a> */}
                     <a href="tel:+91 94208 32505" className="hover:underline">
-                      +91 94208 32505
+                      +91 94208 32505 (Whats app)
                     </a>
                   </div>
                 </div>
                 <div className="text-neutral-15 font-Poppins text-sm flex items-center gap-3">
                   <MdEmail className="text-purple-700 text-2xl" />
                   <div className="flex flex-col gap-1">
-                    <a
+                    {/* <a
                       href="mailto:rahulsd380@gmail.com"
                       className="hover:underline"
                     >
                       rahulsd380@gmail.com
-                    </a>
+                    </a> */}
                     <a
                       href="mailto:prernabadwane@gmail.com"
                       className="hover:underline"

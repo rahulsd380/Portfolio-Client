@@ -1,3 +1,4 @@
+import ContactUs from "@/Components/Home/ContactUs/ContactUs";
 import Hero from "@/Components/Home/Hero/Hero";
 import OurServices from "@/Components/Home/OurServices/OurServices";
 import OurWorks from "@/Components/Home/OurWorks/OurWorks";
@@ -13,6 +14,7 @@ export default function Home() {
       <OurServices/>
       <WhyChooseUs/>
       <OurWorks/>
+      <ContactUs/>
     </div>
   );
 }

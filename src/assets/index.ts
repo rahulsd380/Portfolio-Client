@@ -31,6 +31,10 @@ import security from "../assets/icons/security.svg";
 import flexibility from "../assets/icons/Flexibility.svg";
 import pricing from "../assets/icons/pricing.svg";
 
+// CONTACT US
+import ContactUs_bg from "../assets/images/ContactUs-bg.png";
+import ContactUs from "../assets/images/contact_us.png";
+
 import cross from "../assets/icons/cross.svg";
 import rightArrow from "../assets/icons/right-arrow.svg";
 import leftArrow from "../assets/icons/leftArrow.svg";
@@ -45,16 +49,23 @@ import performanceOptimization from "../assets/animations/Animation - 1734857756
 import backendDevelopment from "../assets/animations/Animation - 1734857970404.json";
 import seo from "../assets/animations/Animation - 1734858155602.json";
 
+import work1 from "../assets/images/Untitled-2.png";
+
 export const IMAGES = {
     logo,
     heroBg,
     lineBg,
+  
+    ContactUs_bg,
+    ContactUs,
 
     project1,
     project2,
     project3,
     project4,
     project5,
+
+    work1,
 };
 
 export const ICONS = {

@@ -25,6 +25,11 @@ export default {
           15 : "#CACACA",
           20 : "#ffffff0d"
         }
+        ,
+        border:{
+          10:"#ffffff33",
+          20:"#ffffff66"
+        }
       },
       backgroundImage: {
         'text-gradient': 'linear-gradient(95deg, #FFFFFF 50.31%, rgba(230, 200, 255, 0.6) 110.92%)',

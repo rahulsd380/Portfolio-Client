@@ -4,7 +4,7 @@
 .img-area {
     width: 100%;
     height: 400px;
-    overflow: hidden; /* Ensure the image is clipped to the container */
+    overflow: hidden;
     position: relative;
   }
   
@@ -26,7 +26,12 @@
       transform: translateY(0);
     }
     100% {
-      transform: translateY(-50%); /* Adjust this value based on how much of the image you want to reveal */
+      transform: translateY(-50%);
     }
   }
   
+
+
+  .projectName{
+    -webkit-text-stroke: 0.5px #d946ef;
+  }
