@@ -40,7 +40,7 @@ const OurWorkCard: React.FC<TOurWorkCard> = ({
         expedita! Amet.
       </p>
 
-      <div className="flex items-center justify-between mt-5">
+      <div className="flex items-center justify-between mt-7">
       <h1 className="projectName text-neutral-20 text-4xl font-bold uppercase font-Poppins">
         {name}
       </h1>
