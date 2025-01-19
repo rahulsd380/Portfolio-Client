@@ -6,33 +6,57 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsSendArrowUpFill } from "react-icons/bs";
 import HamburgerMenu from "./HamburgerMenu";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
+  const router = useRouter();
   const navLinks = [
     {
       label: "Home",
-      path: "/",
+      action: () => {
+        router.push("/");
+        const homeSection = document.getElementById("home");
+        homeSection?.scrollIntoView({ behavior: "smooth" });
+      },
     },
     {
       label: "Services",
-      path: "/services",
+      action: () => {
+        const servicesSection = document.getElementById("our-services");
+        servicesSection?.scrollIntoView({ behavior: "smooth" });
+      },
     },
     {
       label: "Our Works",
-      path: "/our-works",
+      action: () => {
+        router.push("/our-works");
+      },
     },
     {
       label: "Blogs",
-      path: "/blogs",
+      action: () => {
+        // router.push("/");
+        const blogsSection = document.getElementById("blogs");
+        blogsSection?.scrollIntoView({ behavior: "smooth" });
+      },
     },
     {
       label: "FAQs",
-      path: "/faqs",
+      action: () => {
+        // router.push("/");
+        const faqsSection = document.getElementById("faqs");
+        faqsSection?.scrollIntoView({ behavior: "smooth" });
+      },
     },
     {
       label: "Contact Us",
-      path: "/contact-us",
+      action: () => {
+        // router.push("/");
+        const contactUsSection = document.getElementById("contactUs");
+        contactUsSection?.scrollIntoView({ behavior: "smooth" });
+      },
     },
+    
   ];
   return (
     <Container>
@@ -45,13 +69,13 @@ const Navbar = () => {
         <div className="flex items-center gap-6">
         <div className="hidden lg:flex items-center gap-6">
           {navLinks?.map((item) => (
-            <Link
+            <button
               key={item?.label}
-              href={item?.path}
+              onClick={item.action}
               className="text-white hover:text-primary-20 transition duration-300"
             >
               {item?.label}
-            </Link>
+            </button>
           ))}
         </div>
         <button onClick={() => {

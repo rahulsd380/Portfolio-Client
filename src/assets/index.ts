@@ -42,6 +42,8 @@ import leftArrow from "../assets/icons/leftArrow.svg";
 import success from "../assets/icons/success.svg";
 import successBox from "../assets/icons/success-box.svg";
 import menu from "../assets/icons/menu.svg";
+import pointer from "../assets/icons/pointer.svg";
+import live from "../assets/icons/live.svg";
 
 
 import webDevelopment from "../assets/animations/Animation - 1734857518842.json";
@@ -98,6 +100,8 @@ export const ICONS = {
     success,
     successBox,
     menu,
+    pointer,
+    live,
 };
 
 export const ANIMATIONS = {

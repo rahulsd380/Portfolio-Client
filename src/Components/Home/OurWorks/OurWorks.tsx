@@ -32,7 +32,7 @@ const OurWorks = () => {
   ];
 
   return (
-    <div className="bg-[#0C0D21] px-5 py-16 relative mt-24">
+    <div id="our-works" className="bg-[#0C0D21] px-5 py-16 relative mt-24">
       <Container>
         <div
           id="our-works"

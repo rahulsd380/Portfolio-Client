@@ -110,8 +110,8 @@ const ContactUs = () => {
                 <option className="text-neutral-10" value="₹20000-₹50000">₹20000-₹50000</option>
                 <option className="text-neutral-10" value="₹50000-₹80000">₹50000-80000</option>
                 <option className="text-neutral-10" value="₹80000-₹100000">₹80000-₹100000</option>
-                <option className="text-neutral-10" value="₹100000-₹130000">₹100000-₹130000</option>
-                <option className="text-neutral-10" value="other">Other</option>
+                <option className="text-neutral-10" value="₹100000-Above">₹100000-Above</option>
+                {/* <option className="text-neutral-10" value="other">Other</option> */}
               </select>
               {errors.budget && <p className="text-red-500 text-sm">{errors.budget.message}</p>}
 
