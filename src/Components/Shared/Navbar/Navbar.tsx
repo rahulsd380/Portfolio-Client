@@ -1,3 +1,4 @@
+"use client"
 /* eslint-disable react/no-unescaped-entities */
 import { IMAGES } from "@/assets";
 import Container from "@/Components/Reusable/Container/Container";
@@ -53,7 +54,10 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-        <button className="bg-gradient-to-r from-fuchsia-600 via-purple-600 to-violet-500 rounded-md focus:outline-none px-5 py-3 text-white font-medium hidden sm:flex items-center gap-3">
+        <button onClick={() => {
+        const startAProject = document.getElementById("startAProject");
+        startAProject?.scrollIntoView({ behavior: "smooth" });
+      }} className="bg-gradient-to-r from-fuchsia-600 via-purple-600 to-violet-500 rounded-md focus:outline-none px-5 py-3 text-white font-medium hidden sm:flex items-center gap-3">
           <BsSendArrowUpFill /> Let's Talk
         </button>
         <HamburgerMenu/>

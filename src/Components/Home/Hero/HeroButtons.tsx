@@ -3,7 +3,6 @@ import Modal from "@/Components/Modal/Modal";
 import AboutProject from "@/Components/StartAProject/AboutProject";
 import MessageReceived from "@/Components/StartAProject/MessageReceived";
 import SelectService from "@/Components/StartAProject/SelectService";
-import Link from "next/link";
 import React, { useState } from "react";
 
 const HeroButtons = () => {
@@ -23,12 +22,15 @@ const HeroButtons = () => {
 
   return (
     <div className="flex items-center gap-6 z-10 mt-5">
-      <Link
-        href={"/"}
+      <button
+      onClick={() => {
+        const contactUs = document.getElementById("contactUs");
+        contactUs?.scrollIntoView({ behavior: "smooth" });
+      }}
         className="border border-purple-500 rounded-md focus:outline-none px-3 sm:px-5 py-3 text-white/90 text-sm sm:text-lg font-medium flex items-center gap-3 z-10"
       >
         Contact Now
-      </Link>
+      </button>
       <button
         onClick={() => {
           setOpenProjectModal(true);

@@ -8,6 +8,7 @@ const StartProjectBanner = () => {
 
     return (
         <section
+        id="startAProject"
             className="w-full max-w-[1100px] mx-auto rounded-xl my-20 py-[20px] sm:py-[40px] px-[40px] sm:px-[80px] bg-gradient-to-br from-[#161819] to-[#5C26B5] relative overflow-hidden font-Poppins">
             <div className="w-full sm:w-[60%]">
                 <div className="w-full sm:w-[70%]">

@@ -40,6 +40,7 @@ import cross from "../assets/icons/cross.svg";
 import rightArrow from "../assets/icons/right-arrow.svg";
 import leftArrow from "../assets/icons/leftArrow.svg";
 import success from "../assets/icons/success.svg";
+import successBox from "../assets/icons/success-box.svg";
 import menu from "../assets/icons/menu.svg";
 
 
@@ -95,6 +96,7 @@ export const ICONS = {
     rightArrow,
     leftArrow,
     success,
+    successBox,
     menu,
 };
 

@@ -4,7 +4,7 @@ import Container from "@/Components/Reusable/Container/Container";
 import Image from "next/image";
 import Link from "next/link";
 import { BsInstagram } from "react-icons/bs";
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaTwitter, FaWhatsapp } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdAddCall, MdEmail } from "react-icons/md";
 
@@ -111,12 +111,14 @@ const Footer = () => {
               </p>
 
               <div className="flex items-center gap-6 z-10 mt-5">
-                <Link
-                  href={"/"}
+                <button onClick={() => {
+                  const contactUs = document.getElementById("contactUs");
+                  contactUs?.scrollIntoView({ behavior: "smooth" });
+                }}
                   className="border border-purple-500 rounded-md focus:outline-none px-5 py-3 text-white/90 font-medium flex items-center gap-3 z-10"
                 >
                   Contact Now
-                </Link>
+                </button>
                 <Link
                   href={"/"}
                   className="bg-gradient-to-r from-fuchsia-600 via-purple-600 to-violet-500 rounded-md focus:outline-none px-5 py-3 text-white/90 font-medium flex items-center gap-3 z-10"
@@ -176,8 +178,8 @@ const Footer = () => {
                     {/* <a href="tel:+880 1608 249337" className="hover:underline">
                       +880 1608 249337
                     </a> */}
-                    <a href="tel:+91 94208 32505" className="hover:underline">
-                      +91 94208 32505 (Whats app)
+                    <a href="tel:+91 94208 32505" className="hover:underline flex items-center gap-[2px]">
+                      +91 94208 32505 (<FaWhatsapp className="" />)
                     </a>
                   </div>
                 </div>
