@@ -26,9 +26,9 @@ const OurWorkCard: React.FC<TOurWorkCard> = ({
           height={1200}
         />
       </div>
-      {/* <h1 className="bg-text-gradient bg-clip-text text-transparent text-2xl font-semibold font-Poppins mt-5">
+      <h1 className="bg-text-gradient bg-clip-text text-transparent text-2xl font-semibold font-Poppins mt-5">
         {name}
-      </h1> */}
+      </h1>
       <p className="text-neutral-15 font-Inter mt-3">
         <strong>Technology Used:</strong> {technologyUsed.join(", ")}
       </p>
@@ -40,10 +40,10 @@ const OurWorkCard: React.FC<TOurWorkCard> = ({
         expedita! Amet.
       </p>
 
-      <div className="flex items-center justify-between mt-7">
-      <h1 className="projectName text-neutral-20 text-4xl font-bold uppercase font-Poppins">
+      <div className="flex items-center justify-end mt-7">
+      {/* <h1 className="projectName text-neutral-20 text-4xl font-bold uppercase font-Poppins">
         {name}
-      </h1>
+      </h1> */}
         <Link
           href={liveLink}
           className="bg-gradient-to-r from-fuchsia-600 via-purple-600 to-violet-500 rounded-md focus:outline-none px-5 py-2 text-white/90 text-lg font-medium flex items-center gap-3 z-10"

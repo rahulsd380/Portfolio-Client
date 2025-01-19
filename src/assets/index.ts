@@ -16,6 +16,7 @@ import redux from "../assets/images/Tech Tolbox/redux.svg";
 import restApi from "../assets/images/Tech Tolbox/rest-api.svg";
 import tailwind from "../assets/images/Tech Tolbox/tailwind-css.svg";
 import typescript from "../assets/images/Tech Tolbox/ts.png";
+import rightAngle from "../assets/images/right-angle.png";
 
 // Dummy project img
 import project1 from "../assets/images/Project Cover.png";
@@ -55,6 +56,7 @@ export const IMAGES = {
     logo,
     heroBg,
     lineBg,
+    rightAngle,
   
     ContactUs_bg,
     ContactUs,
@@ -64,7 +66,6 @@ export const IMAGES = {
     project3,
     project4,
     project5,
-
     work1,
 };
 

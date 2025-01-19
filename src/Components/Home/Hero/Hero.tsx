@@ -16,10 +16,10 @@ const Hero = () => {
         <span className="bg-gradient-to-r from-fuchsia-600 via-purple-500 to-violet-300 bg-clip-text text-transparent">
           Your Success
         </span>{" "}
-        through Technology
+        Through Technology
       </h1>
       <p className="font-Inter text-sm md:text-lg text-center max-w-[980px] mx-auto text-neutral-15 z-10">
-        At <span className="font-semibold text-white">Amplogix</span>, we
+        At <span className="font-semibold bg-gradient-to-r from-fuchsia-600 via-purple-600 to-violet-500 bg-clip-text text-transparent">Amplogix</span>, we
         empower your success through innovative technology solutions. From
         digital transformation to web development, we turn ideas into impactful
         platforms, driving growth and amplifying your brand's potential.
